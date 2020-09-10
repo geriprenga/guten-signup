@@ -1,0 +1,29 @@
+{
+	"name": "guten-signup",
+	"version": "0.1.0",
+	"description": "Example block written with ESNext standard and JSX support – build step required.",
+	"author": "The WordPress Contributors",
+	"license": "GPL-2.0-or-later",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"watch-wp": "wp-scripts start",
+		"wp-env": "wp-env",
+		"format:js": "wp-scripts format-js",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"start": "wp-scripts start",
+		"packages-update": "wp-scripts packages-update"
+	},
+	"devDependencies": {
+		"@wordpress/env": "^1.6.0",
+		"@wordpress/scripts": "^12.1.1"
+	},
+	"dependencies": {
+		"@wordpress/block-editor": "^4.3.7",
+		"@wordpress/blocks": "^6.20.3",
+		"@wordpress/editor": "^9.20.7",
+		"@wordpress/element": "^2.16.0",
+		"axios": "^0.20.0"
+	}
+}
