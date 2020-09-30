@@ -4,6 +4,8 @@ Signup gutenberg block . Can be added as a normal block via Gutenberg and user c
 
 For quicker use, in case you want to use the block but not deal with environment setup, just download the repository as a ZIP file and install it as a normal Wordpress plugin. Activate it and voila, the block is ready for use. 
 
+( Currently the block was just meant to send data into a https://www.sendinblue.com/ account and save contacts there ) 
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
