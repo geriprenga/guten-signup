@@ -42,7 +42,6 @@ jQuery(document).ready(function() {
     // Submit 
     signup_btn.click(function() {
         event.preventDefault();
-        console.log('was clicked');
         clearError();
         var input_val = signup_input.val();
 
@@ -80,7 +79,6 @@ jQuery(document).ready(function() {
                     },
                     data: jsonData,
                     success: function(data, textStatus, xhr) {
-                        console.log(data);
                         // succesfully added email to contacts
                         if (xhr.status == 201) {
                             showSuccess(textStatus);
