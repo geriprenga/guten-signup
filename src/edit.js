@@ -36,7 +36,6 @@ export default function Edit( props ) {
 		setAttributes({inpPlaceholder: newPlacehld});
 	};
 
-	console.log('editor-val', inpPlaceholder);
 	return (
 		<div className="editor-block-wrapper">
 			<div className="editor-wrapper-div">

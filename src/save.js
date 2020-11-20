@@ -17,12 +17,7 @@ import { RichText } from '@wordpress/block-editor';
 
 
 export default function save(props) {
-	console.log('now begins save fn', props.attributes.inpPlaceholder);
 
-	// const subscribeHandler = () => {
-	// 	console.log('was clicked');
-	// 	window.location.replace('www.google.com');
-	// }
 	return (
 		<div>
 			<div className="sign-up-form">
